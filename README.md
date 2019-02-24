@@ -4,7 +4,7 @@ The UK invoked [Article 50 of the Lisbon Treaty](https://en.wikipedia.org/wiki/W
 
 Tweet
 -----
-This code runs every 17 hours, which is when every 0.1% from those two years elapses. The code runs on an AWS Lambda function.
+This code runs every 17 hours and tweets on the [@brexiprogress]()https://twitter.com/brexitprogress) Twitter account, which is when every 0.1% from those two years elapses. The code runs on an AWS Lambda function.
 
 References
 ----------
