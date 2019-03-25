@@ -28,7 +28,7 @@ func HandleRequest(ctx context.Context) (string, error) {
 
 	now := time.Now().In(loc)
 	start := time.Date(2017, time.March, 29, 12, 0, 0, 0, loc)
-	end := time.Date(2019, time.March, 29, 23, 0, 0, 0, loc)
+	end := time.Date(2019, time.April, 12, 23, 0, 0, 0, loc)
 
 	duration_end := end.Sub(start)
 	duration_now := now.Sub(start)
