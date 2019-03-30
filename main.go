@@ -52,7 +52,7 @@ func HandleRequest(ctx context.Context) (string, error) {
 
 	eu_emoji, wave_emoji, uk_emoji := "🇪🇺", "👋", "🇬🇧"
 
-	tweet := fmt.Sprintf("Time until Brexit: %dd %dh %dm %ds (%.1f%% completed) %s%s%s #brexit\n", days, hours, minutes, seconds, perc, eu_emoji, wave_emoji, uk_emoji)
+	tweet := fmt.Sprintf("Time until new #Brexit deadline (12 April): %dd %dh %dm %ds %s%s%s\n", days, hours, minutes, seconds, eu_emoji, wave_emoji, uk_emoji)
 
 	creds := Credentials{
 		AccessToken:       os.Getenv("ACCESS_TOKEN"),
